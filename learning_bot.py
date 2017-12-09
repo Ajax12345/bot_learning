@@ -2,8 +2,8 @@ import pygame
 import pygame.gfxdraw
 import numpy
 import random
-import naive_bayes
-import knn
+import classifiers.naive_bayes as naive_bayes
+import classifiers.knn as knn
 
 ball = pygame.Surface((100, 100), pygame.SRCALPHA)
 pygame.gfxdraw.aacircle(ball, 50, 50, 40, (255, 0, 0))
